@@ -24,5 +24,5 @@ watchOS 26.4
 - On simulator this issue does not occur, only on physical devices.
 - There is also a chance that it's not reproducible when running the app from Xcode.
   My two friends confirmed that this issue occurs in my app but there is a small chance that it happens only when you publish the app.
-- My app where you can observe the issue: [https://apps.apple.com/us/app/smog-poland/id1367444922](Smog Poland). Polish texts are used as fallback values,
+- My app where you can observe the issue: [Smog Poland](https://apps.apple.com/us/app/smog-poland/id1367444922). Polish texts are used as fallback values,
   so if you change Apple Watch to English, you should still see Polish texts in the widget configuration.
