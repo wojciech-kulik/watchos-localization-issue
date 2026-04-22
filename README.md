@@ -15,8 +15,8 @@
 
 ### Environment
 
-Xcode: Version 26.4 (17E192)
-iOS 26.4.1
+Xcode: Version 26.4 (17E192)  
+iOS 26.4.1  
 watchOS 26.4
 
 ### Notes
