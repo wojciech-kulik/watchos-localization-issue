@@ -27,5 +27,5 @@ watchOS 26.4
 - My app where you can observe the issue: [Smog Poland](https://apps.apple.com/us/app/smog-poland/id1367444922). Polish texts are used as fallback values,
   so if you change Apple Watch to English, you should still see Polish texts in the widget configuration.
 - In this example I use `WidgetLocalizable.xcstrings` just for widgets, but I also
-  tried having all texts in one shared `Localizable.xcstrings`, without
+  tried having all texts in one shared `Localizable.strings`, without
   specifying table and bundle in `@Parameter`, and the issue still occurred.
