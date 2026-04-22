@@ -5,12 +5,12 @@
 
 ### Actual results
 
-- Labels in the widget configuration use fallback value. In this case: "[FILE DEFAULT]"
+- Labels in the widget configuration use fallback value. In this case: `[FILE DEFAULT]`
 - Xcode marks the string as unused, even though it is used in the widget configuration.
 
 ### Expected results
 
-- Labels in the widget configuration should display the correct text from WidgetLocalizable.xcstrings file.
+- Labels in the widget configuration should display the correct text from `WidgetLocalizable.xcstrings` file.
 - Xcode should recognize the string as used and not mark it as unused.
 
 ### Environment
@@ -26,3 +26,6 @@ watchOS 26.4
   My two friends confirmed that this issue occurs in my app but there is a small chance that it happens only when you publish the app.
 - My app where you can observe the issue: [Smog Poland](https://apps.apple.com/us/app/smog-poland/id1367444922). Polish texts are used as fallback values,
   so if you change Apple Watch to English, you should still see Polish texts in the widget configuration.
+- In this example I use `WidgetLocalizable.xcstrings` just for widgets, but I also
+  tried having all texts in one shared `Localizable.xcstrings`, without
+  specifying table and bundle in `@Parameter`, and the issue still occurred.
