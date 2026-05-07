@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B63A7646DA2360A161E8201 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFF7A9851B1CC578BCD40B /* AppIntent.swift */; };
 		1F991ACB89FC9764C6153EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6082BA848650722FAAD4D12 /* ContentView.swift */; };
 		206FBB9046A3D6B9E43CD805 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8FF9E54968B4F35F1FC8226 /* Localizable.strings */; };
 		24566450BDF404059AB8758F /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FFF7A9851B1CC578BCD40B /* AppIntent.swift */; };
@@ -25,7 +24,6 @@
 		B9719E3D3BDCBAED1B37AFF5 /* WatchWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7B44F4057B5892F8E81DA /* WatchWidgetsBundle.swift */; };
 		BFCF8EDC5A3A553A0AF63F33 /* testappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA7B58067F1452C0F983D8 /* testappApp.swift */; };
 		D3D6F9A8DB516321EA005C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5ED588DFDB7A34E47E6C36 /* Assets.xcassets */; };
-		D72E5A0289E204AF0BD8A716 /* WidgetLocalizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B8C36A17FDA51BD09A10DA6C /* WidgetLocalizable.xcstrings */; };
 		DC965A88648ABC26A391EBB9 /* WidgetLocalizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B8C36A17FDA51BD09A10DA6C /* WidgetLocalizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -319,7 +317,6 @@
 			files = (
 				AFED4DCB8D17F0EC09E5AEA1 /* Assets.xcassets in Resources */,
 				5E1D363A1EDA3E0038C5EFE8 /* Localizable.strings in Resources */,
-				D72E5A0289E204AF0BD8A716 /* WidgetLocalizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B63A7646DA2360A161E8201 /* AppIntent.swift in Sources */,
 				78E17164DA248F6D55FF5FAB /* ContentView.swift in Sources */,
 				45516DA2B7F08CFC1A5FD320 /* WatchApp.swift in Sources */,
 			);
@@ -392,7 +388,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test-app.watch";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -496,7 +491,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test-app.watch";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};

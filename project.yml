@@ -62,7 +62,6 @@ targets:
     deploymentTarget: 10.0
     sources:
       - path: Watch
-      - path: WatchWidgets/Shared
       - path: Shared
     dependencies:
       - target: WatchWidgets
@@ -97,6 +96,8 @@ targets:
           NSExtensionPointIdentifier: "com.apple.widgetkit-extension"
         NSWidgetWantsLocation: YES
     settings:
+      base:
+        SWIFT_EMIT_LOC_STRINGS: YES
       configs:
         Debug:
           PRODUCT_BUNDLE_IDENTIFIER: "com.test.test-app.watch.widgets"
