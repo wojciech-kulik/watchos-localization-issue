@@ -2,7 +2,6 @@
   "sourceLanguage" : "en",
   "strings" : {
     "watchWidgetConfig.some.title" : {
-      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
